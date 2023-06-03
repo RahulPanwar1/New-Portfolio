@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Panwar portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/767f52e363.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id = "header">
+    <div class = "container">
+        <nav>
+            <img src="images/logo3.png" class ="logo">
+            <ul id = "sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#projects">Projects</a></li>   
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class = "header-text">
+            <p>Software Developer / Full Stack Developer</p>
+            <h1>Hi, I am <span> Rahul Panwar </span><br> <span id ="small">CSE undergrad at IIIT Jabalpur</span></h1>
+        </div>
+    </div>
+   </div>
+
+   <!-- --------------------about section ------------------------------------- -->
+   <div id="about">
+     <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user11.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class = "sub-title">About Me</h1> <br>
+                <p>I am a Full Stack developer in the MERN </p> <br>
+                <div class="tab-titles">
+                    <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class = "tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class = "tab-links" onclick="opentab('education')">Education  </p>
+                </div>
+                  <div class="tab-contents active-tab" id = "skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Developing responsive websites</li>
+                        <li><span>Problem solving</span><br>DSA and coding enthusiast</li>
+                        <li><span>AI/ML</span><br>Developed the projects related to AI</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id = "experience">
+                    <ul>
+                        <li><span>2021-current</span><br>Developing responsive websites</li>
+                        <li><span>2021-current</span><br>DSA and coding enthusiast</li>
+                        <li><span>2022-current</span><br>Developed the projects related to AI</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id = "education">
+                    <ul>
+                        <li><span>2020-2024</span><br>IIITDM Jabalpur CPI - 8.4</li>
+                        <li><span>2018-2019</span><br>Class 12th Percentage - 80</li>
+                        <li><span>2016-2017</span><br>Class 10th CGPA - 9.8</li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+     </div>
+   </div>
+
+   <!-- -----services section ------------------------------------------------------- -->
+   <div id="service">
+    <div class="container">
+        <h1 class = "sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web developer </h2>
+                <p>i am a good web developer</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Problem solving </h2>
+                <p>i am a good web developer</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Software engineer </h2>
+                <p>i am a good web developer</p>
+                <a href="#">Learn more</a>
+            </div>
+             
+        </div>
+    </div>
+   </div>
+
+
+   <!-- -------projects--------------------------------------------------------- -->
+   <div id="projects">
+    <div class="container">
+        <h1 class = "sub title ">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Call for Proposal website</h3>
+                    <p>Used website scrapping and crawling to for getting website call for proposals </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Call for Proposal website</h3>
+                    <p>Used website scrapping and crawling to for getting website call for proposals </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Call for Proposal website</h3>
+                    <p>Used website scrapping and crawling to for getting website call for proposals </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/RahulPanwar1" class ="btn">See more</a>
+    </div>
+   </div>
+
+    <!-- ----------------contact form--------------------------------------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class ="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-reply"></i>panwarr404@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7878513650</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rahul-panwar-833006218/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/RahulPanwar1"><i class="fa-brands fa-github"></i></i></a>
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <a href="/images/20BCS171_Rahul Panwar.pdf" class ="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder ="Your Name" required>
+                        <input type="text" name="Email" placeholder ="Your Email" required>
+                        <textarea name="Message" rows="6"placeholder ="Your Message"></textarea>
+                        <button type ="submit" class = "btn btn2">Submit</button>
+
+                    </form>
+                    <!-- <span id = "msg">hello</span> -->
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © RahulPanwar 2023</p>
+        </div>
+    </div>
+    <!-- --------------------------for about section------------------------------ -->
+   <script>
+    
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname)
+       {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+       }    
+   </script>
+   <!-- --------------for side menu--------------------------- -->
+   <script>
+ 
+      var sidemen = document.getElementById("sidemenu");
+      function openmenu()
+      {
+        sidemen.style.right = "0";
+        
+      }
+      function closemenu()
+      {
+        sidemen.style.right = "-200px";
+        
+      }
+   </script>
+</body>
+</html>
